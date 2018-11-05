@@ -1,0 +1,126 @@
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	padding: 0 0.9em;
+	line-height: 1.5em;
+	word-wrap: break-word;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a[href] {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a[href]:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+/* inline source code in title */
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+table {
+	border-collapse: collapse;
+	border: 2px solid;
+	border-color: black
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	border: 1px solid;
+	padding: 5px 10px;
+	border-color: black
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+	background: #f1f1f1;
+	border-color: #0097fc;
+}
+
+/* preformatted content */
+pre {
+	background-color: #efefef;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+/* source code line */
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	line-height: 1.35em;
+}
+
+/* inline source code */
+/* doesn't work for ie6 */
+:not(pre) > code {
+	color: #ff8000;
+	font-weight: bold;
+	font-size: inherit;
+}
+
+/* source code block */
+pre > code {
+	display: block;
+	/* doesn't work for ie6 */
+	/* overflow-x: auto; */
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+/* source code color */
+.co {
+	color: #8e908c;
+}

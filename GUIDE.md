@@ -12,7 +12,9 @@
 
 ```
 .
+├── build/
 ├── src/
+├── BUILD.md
 ├── GUIDE.md
 ├── LICENSE
 └── README.md
@@ -20,8 +22,12 @@
 
 主要部分说明如下：
 
++ build/ \
+    包含构建所需脚本、css等。
 + src/ \
     包含手册正文。
++ BUILD.md \
+    构建说明。
 + GUIDE.md \
     手册维护指南。
 + LICENSE \
