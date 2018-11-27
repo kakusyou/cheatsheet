@@ -89,7 +89,7 @@ blockquote {
 
 /* preformatted content */
 pre {
-	background-color: #efefef;
+	background-color: #dfdfdf;
 	border: 1px solid #cccccc;
 	border-radius: 3px;
 	overflow-x: auto;
@@ -114,13 +114,12 @@ code {
 /* source code block */
 pre > code {
 	display: block;
-	/* doesn't work for ie6 */
+	/* make ie6 disordered, MUST be disabled */
 	/* overflow-x: auto; */
-	color: #4d4d4c;
 	padding: 0.5em;
 }
 
-/* source code color */
+/* comments in source code */
 .co {
-	color: #8e908c;
+	color: green;
 }
