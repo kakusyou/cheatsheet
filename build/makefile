@@ -4,7 +4,7 @@ MD_DIR=../src
 TMP_DIR=out
 CHM=$(NAME).chm
 
-PANDOC2HTML = pandoc.exe -s --template=pandoc-template-chm.html -c ../pandoc-markdown.css -f markdown_strict+escaped_line_breaks+backtick_code_blocks+pipe_tables-pandoc_title_block -t html
+PANDOC2HTML = pandoc.exe -s --template=pandoc-template-chm.html -c ../pandoc-markdown.css -f markdown_strict+escaped_line_breaks+backtick_code_blocks+pipe_tables+all_symbols_escapable-pandoc_title_block -t html
 
 md2html=$(patsubst %.md,%.html,$(subst /,_,$(1)))
 html2md=$(patsubst %.html,%.md,$(subst _,/,$(1)))
